@@ -11,5 +11,31 @@
             "url": "https://github.com/brod55/demo",
             "stackfile": "x11/docker-stack.yml"
         }
+    },
+    {
+        "type": 2,
+        "title": "Point of Sales",
+        "description": "X11 Deployed on All GPUs",
+        "note": "Deploys on all devices in the Swarm",
+        "categories": ["x11"],
+        "platform": "linux",
+        "logo": "https://www.saashub.com/images/app/service_logos/6/33efbb5834be/large.png?1526996441",
+        "repository": {
+            "url": "https://github.com/brod55/demo",
+            "stackfile": "x11/docker-stack.yml"
+        }
+    },
+    {
+        "type": 2,
+        "title": "RSP w/ EdgeX",
+        "description": "X11 Deployed on All GPUs",
+        "note": "Deploys on all devices in the Swarm",
+        "categories": ["x11"],
+        "platform": "linux",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwhiLhp4d9KXtxShTutif-oIT-MU6Nzcqn35FHGs1iGQfNU3dZ",
+        "repository": {
+            "url": "https://github.com/brod55/demo",
+            "stackfile": "x11/docker-stack.yml"
+        }
     }
 ]
