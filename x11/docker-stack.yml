@@ -29,5 +29,5 @@ services:
         constraints: 
           - node.platform.os == linux
           - engine.labels.graphics.i915 == true
-          # - engine.labels.serial_number == DW1626551800123
+          # - engine.labels.serial_number == 1905122097
           # - node.labels.gpu.available == true
