@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   x11:
-    image: docker:18.09.7
+    image: docker:19.03.0
     entrypoint: [sh, -c]
     environment:
       TASK_NAME: '{{.Task.Name}}'
@@ -35,7 +35,7 @@ services:
           # - node.labels.gpu.available == true
 
   pos:
-    image: docker:18.09.7
+    image: docker:19.03.0
     entrypoint: [sh, -c]
     environment:
       TASK_NAME: '{{.Task.Name}}'
