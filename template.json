@@ -15,8 +15,8 @@
     {
         "type": 2,
         "title": "Point of Sales",
-        "description": "X11 Deployed on All GPUs",
-        "note": "Deploys on all devices in the Swarm",
+        "description": "Deploys Unicenta on VM running in Swarm",
+        "note": "Deploys Unicenta on VM running in Swarm",
         "categories": ["pos"],
         "platform": "linux",
         "logo": "https://www.saashub.com/images/app/service_logos/6/33efbb5834be/large.png?1526996441",
@@ -41,8 +41,8 @@
     {
         "type": 2,
         "title": "RSP w/ EdgeX",
-        "description": "X11 Deployed on All GPUs",
-        "note": "Deploys on all devices in the Swarm",
+        "description": "Deploys Intel RSP with EdgeX in Swarm",
+        "note": "Deploys Intel RSP with EdgeX in Swarm",
         "categories": ["rfid"],
         "platform": "linux",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwhiLhp4d9KXtxShTutif-oIT-MU6Nzcqn35FHGs1iGQfNU3dZ",
@@ -50,5 +50,18 @@
             "url": "https://github.com/brod55/demo",
             "stackfile": "rsp/docker-stack.yml"
         }
-    }
+    },
+    {
+        "type": 2,
+        "title": "Windows 7",
+        "description": "Deploy Windows 7 on Swarm",
+        "note": "Deploys Windows 7 on Swarm",
+        "categories": ["win"],
+        "platform": "linux",
+        "logo": "https://cdn.mos.cms.futurecdn.net/353dd8543cfecd6adf13de7923759524-320-80.jpg",
+        "repository": {
+            "url": "https://github.com/brod55/demo",
+            "stackfile": "pos/docker-stack.yml"
+        }
+    },
 ]
