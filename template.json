@@ -1,7 +1,7 @@
 [
     {
         "type": 2,
-        "title": "X11 All",
+        "title": "X11 on all devices",
         "description": "X11 Deployed on All GPUs",
         "note": "Deploys on all devices in the Swarm",
         "categories": ["x11"],
@@ -10,6 +10,19 @@
         "repository": {
             "url": "https://github.com/brod55/demo",
             "stackfile": "x11/docker-stack.yml"
+        }
+    },
+    {
+        "type": 2,
+        "title": "X11 on all devices plus YouTube Video",
+        "description": "X11 Deployed on All GPUs",
+        "note": "Deploys on all devices in the Swarm",
+        "categories": ["x11"],
+        "platform": "linux",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/X11.svg/1024px-X11.svg.png",
+        "repository": {
+            "url": "https://github.com/brod55/demo",
+            "stackfile": "x11video/docker-stack.yml"
         }
     },
     {
