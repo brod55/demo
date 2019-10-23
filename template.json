@@ -27,6 +27,19 @@
     },
     {
         "type": 2,
+        "title": "CV Ad Tageting",
+        "description": "Deploys Intel CV Ad targeting demo in Swarm",
+        "note": "Deploys Intel CV Ad targeting demo in Swarm",
+        "categories": ["cv"],
+        "platform": "linux",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwhiLhp4d9KXtxShTutif-oIT-MU6Nzcqn35FHGs1iGQfNU3dZ",
+        "repository": {
+            "url": "https://github.com/brod55/demo",
+            "stackfile": "age-gender-recognition/docker-stack.yml"
+        }
+    },
+    {
+        "type": 2,
         "title": "Point of Sales",
         "description": "Deploys Unicenta on VM running in Swarm",
         "note": "Deploys Unicenta on VM running in Swarm",
