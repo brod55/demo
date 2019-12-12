@@ -31,3 +31,5 @@ services:
           - engine.labels.graphics.i915 == true
           # - engine.labels.serial_number == 1905122097
           # - node.labels.gpu.available == true
+          # - node.labels.usb.camera == true
+          # - node.labels.hddl.available == true
