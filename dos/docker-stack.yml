@@ -34,7 +34,7 @@ services:
           - engine.labels.serial_number == 1905122097
           # - node.labels.gpu.available == true
 
-  pos:
+  dos:
     image: docker:19.03.0
     entrypoint: [sh, -c]
     environment:
@@ -48,7 +48,7 @@ services:
       -v /dev:/dev:shared
       -v /var/run/:/var/run/
       --label com.docker.stack.namespace=$$(docker container inspect --format "{{index .Config.Labels \"com.docker.stack.namespace\"}}" $${TASK_NAME})
-      registry.edge.io/lab/dos:0.0.2'
+      registry.ori.adsdcsp.com/demo/dos:0.0.2'
     volumes:
       - /var/run:/var/run
     deploy:
